@@ -3,6 +3,7 @@ import { CajonGrid } from './CajonGrid'
 
 
 export const CajonId = () => {
+
     const [cajones, setCajones] = useState([])
 
     const getCajonesById = (id) => {
@@ -10,9 +11,13 @@ export const CajonId = () => {
             ...cajon, id
         ]);
     }
+
+
     useEffect(() => {
         getCajonesById('1');
     }, [])
+
+
 
     return (
         <>
