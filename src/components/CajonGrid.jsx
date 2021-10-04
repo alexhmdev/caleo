@@ -4,7 +4,9 @@ export const CajonGrid = (cajon) => {
     return (
 
         <div>
+
             {cajon}
+
         </div>
 
     )

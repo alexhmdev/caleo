@@ -12,12 +12,9 @@ export const CajonId = () => {
         ]);
     }
 
-
     useEffect(() => {
         getCajonesById('1');
     }, [])
-
-
 
     return (
         <>
