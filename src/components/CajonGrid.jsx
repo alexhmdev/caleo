@@ -5,6 +5,7 @@ export const CajonGrid = (cajon) => {
 
         <>
             {cajon}
+            {/* cambio en rama Alta-Cajon */}
         </>
 
     )
