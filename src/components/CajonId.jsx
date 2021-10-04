@@ -17,8 +17,6 @@ export const CajonId = () => {
         getCajonesById('1');
     }, [])
 
-
-
     return (
         <>
             <h2>Cajones</h2>s
